@@ -68,8 +68,7 @@ namespace game_rsp
             {
                 Console.WriteLine("Draw!");
                 return;
-            }
-            if (comp_move > player_move)
+            }else if (comp_move > player_move)
             {
                 if (comp_move - player_move <= n / 2)
                     Console.WriteLine("You win!");
